@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CVEs</title>
+</head>
+<body>
+    <h1>New CVEs</h1>
+    {% for cve in cves %}
+        <h2>{{ cve.id }}</h2>
+        <p>{{ cve.description }}</p>
+        <hr>
+    {% endfor %}
+</body>
+</html>
