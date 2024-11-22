@@ -12,7 +12,7 @@ This project is a simple Django application that retrieves CVEs (Common Vulnerab
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/cve_finder.git
+   git clone https://github.com/knithin/cve_finder.git
    
 2. Navigate to the project directory:
 cd cve_finder
